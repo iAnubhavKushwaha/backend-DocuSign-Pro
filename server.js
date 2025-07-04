@@ -54,6 +54,12 @@ app.get("/api/health", (req, res) => {
   });
 });
 
+// Default root route
+app.get('/', (req, res) => {
+  res.send('Document Signer API is running!');
+});
+
+
 // Global error handler
 app.use(errorHandler);
 
