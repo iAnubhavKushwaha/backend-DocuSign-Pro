@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Backend API for document signing application",
   "type": "module",
-  "main": "src/server.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
