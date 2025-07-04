@@ -4,10 +4,10 @@ import path from 'path';
 import fs from 'fs';
 import { fileURLToPath } from 'url';
 import dotenv from 'dotenv';
-import connectDB from './config/db.js';
-import documentRoutes from './routes/documentRoutes.js';
-import authRoutes from './routes/authRoutes.js';
-import { errorHandler } from './middleware/errorHandler.js';
+import connectDB from './src/config/db.js';
+import documentRoutes from './src/routes/documentRoutes.js';
+import authRoutes from './src/routes/authRoutes.js';
+import { errorHandler } from './src/middleware/errorHandler.js';
 
 // Load environment variables
 dotenv.config();
